@@ -2,6 +2,7 @@ Simple lambda script to load ELB S3 logs into ES via lambda
 
 # setup  
 * install the requirements via PIP in a virtual env
+* modify the parameters of the script to your needs, mainly ES cluster DNS name and credentials.
 * ZIP elb2es.py and the lib/python2.7/site-packages/*
 * upload to a lambda function.
 * Determine how much RAM you may need to run this(trial and error?) set the timeout accordingly.

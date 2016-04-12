@@ -1,4 +1,4 @@
-Simple lambda script to load ELB S3 logs into lambda
+Simple lambda script to load ELB S3 logs into ES via lambda
 
 # setup  
 * install the requirements via PIP in a virtual env
